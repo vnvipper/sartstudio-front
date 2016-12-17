@@ -1,0 +1,18 @@
+{"bones":[{"name":"root"}],
+"slots":[
+	{"name":"trangchu","bone":"root","attachment":"trangchu"},
+	{"name":"Background","bone":"root","attachment":"Background"},
+	{"name":"web","bone":"root","attachment":"web"},
+	{"name":"icon","bone":"root","attachment":"icon"},
+	{"name":"contact","bone":"root","attachment":"contact"}
+],
+"skins":{
+	"default":{
+		"contact":{"contact":{"x":424,"y":571.5,"width":206,"height":177}},
+		"icon":{"icon":{"x":1105,"y":777.5,"width":206,"height":177}},
+		"web":{"web":{"x":687,"y":1053.5,"width":206,"height":177}},
+		"Background":{"Background":{"x":945,"y":708.5,"width":1890,"height":1417}},
+		"trangchu":{"trangchu":{"x":842,"y":295.5,"width":206,"height":177}}
+	}
+},
+"animations": { "animation": {} }}
