@@ -1,0 +1,143 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  background: #5d1e14;
+  color: #fff;
+}
+p {
+  font-size: 20px;
+}
+p.small {
+  font-size: 16px;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #fff;
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+hr {
+  border-color: #9d1a05;
+  border-width: 4px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.img-centered {
+  margin: 0 auto;
+}
+
+.heading {
+   width: 100%; 
+   border-bottom: 4px solid #9d1a05; 
+   line-height: 0.3em;
+   margin: 10px 0 20px; 
+} 
+
+.heading span { 
+    background:#5d1e14; 
+    padding:0 20px; 
+}
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+.navbar .container {
+  position: relative;
+}
+
+.navbar-brand img {
+  height: 100px;
+}
+
+
+#navbar-main .nav.navbar-nav li a{
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#navbar-main {
+  background-color: #5d1e14;
+  border-color: #5d1e14;
+}
+
+#bs-example-navbar-collapse-1 {
+  padding: 0;
+  overflow: hidden;
+}
+
+@media (min-width: 991px) {
+  .navbar-brand {
+    position: absolute;
+    left: -70px;
+  }
+
+  #bs-example-navbar-collapse-1 {
+    padding: 0;
+    overflow: hidden;
+    margin-top: 80px;
+  }
+
+  .navbar .container {
+    position: relative;
+    min-height: 130px;
+  }
+}
+
+.nav-custom {
+  padding-top: 20px;
+  min-height: 70px;
+}
