@@ -53,7 +53,7 @@ hr {
 
 .heading span { 
     background:#5d1e14; 
-    padding:0 20px; 
+    padding:0 20px 0 0; 
 }
 
 @media (max-width: 991px) {
@@ -141,3 +141,104 @@ hr {
   padding-top: 20px;
   min-height: 70px;
 }
+
+
+.nav-tabs.nav-justified li {
+  border-bottom: 0 !important;
+}
+
+
+.nav-tabs.nav-justified>li>a {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 33px;
+  font-weight: bold;
+  border-radius: 0;
+  border-bottom: 0;
+}
+
+ .nav-tabs.nav-justified>li>a:focus, 
+ .nav-tabs.nav-justified>li>a:hover {
+    // border: 1px solid #5d1e14;
+    color: #5d1e14;
+    border-radius: 0;
+    border-bottom: 0;
+}
+
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
+    // border: 1px solid #5d1e14;
+    color: #5d1e14;
+    border-radius: 0;
+    border-bottom: 0;
+}
+
+@media (min-width: 768px)
+.nav-tabs.nav-justified>li>a {
+    border-bottom: 0;
+}
+
+.tab-content .row .col-md-6 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.tab-content .row .col-md-6.col-even {
+    padding-right: 15px !important;
+  } 
+
+  .tab-content .row .col-md-6.col-odd {
+    padding-left: 15px !important;
+  }
+
+@media (min-width: 992px){
+  .tab-content .row .col-md-6.col-even {
+    padding-right: 5px !important;
+  } 
+
+  .tab-content .row .col-md-6.col-odd {
+    padding-left: 5px !important;
+  }
+}
+
+.coppyright {
+  color: #e62001;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+footer .row .col-md-3 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+footer .container {
+  position: relative;
+}
+
+footer .footer-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+// .carousel .container {
+//     padding: 0;
+// }
+ 
+// #myCarousel.carousel,#myCarousel .item,#myCarousel .active {
+//     height:500px;
+//     width:100%;
+//     position: relative;
+ 
+// }
+// #myCarousel .carousel-inner {
+//     height:500px;
+// }
+ 
+// .fill {
+//     width:100%;
+//     height:100%;
+//     background-position:center;
+//     background-size:cover;
+//     margin: 0;
+// }
